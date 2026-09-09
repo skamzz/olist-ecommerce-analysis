@@ -48,10 +48,15 @@ Sales data analysis of Brazilian e-commerce using the public Olist dataset (2017
 
 The Excel dashboard includes:
 
-* KPI cards
-* Top 10 categories by revenue
-* Monthly revenue trend
-* Category performance analysis
+* **KPI cards:**
+
+  * Total Orders
+  * Total Revenue
+  * Average Ticket
+  * Total Categories
+* **Top 10 categories by revenue**
+* **Monthly revenue trend**
+* **Category performance analysis**
 
 * The dashboard preview is available in PDF format in the `excel/` folder.
 
