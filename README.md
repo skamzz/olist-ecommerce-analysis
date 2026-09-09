@@ -12,7 +12,7 @@ Sales data analysis of Brazilian e-commerce using the public Olist dataset (2017
 
 * Excel (Power Query, Pivot Tables, Dashboard)
 * SQL (SQLite via DB Browser for SQLite)
-* Power BI
+* Power BI *(in progress)*
 
 ## Business Questions
 
@@ -52,6 +52,10 @@ The Excel dashboard includes:
 * Top 10 categories by revenue
 * Monthly revenue trend
 * Category performance analysis
+
+* The dashboard preview is available in PDF format in the `excel/` folder.
+
+The complete Excel workbook can be downloaded from the https://github.com/skamzz/olist-ecommerce-analysis/releases/tag/v1.0.
 
 ### Power BI Dashboard *(in progress)*
 
