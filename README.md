@@ -84,7 +84,6 @@ The query results are exported as CSV files and available in `sql/results/`.
 olist-ecommerce-analysis/
 ├── README.md
 ├── excel/
-│   ├── olist_ecommerce_analysis.xlsx
 │   └── olist_ecommerce_dashboard.pdf
 ├── sql/
 │   ├── queries.sql
