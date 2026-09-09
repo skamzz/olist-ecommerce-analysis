@@ -1,11 +1,11 @@
-category;avg_ticket;total_orders
-pcs;1098;181
-portateis casa forno e cafe;624;75
-eletrodomesticos 2;476;234
-agro industria e comercio;342;182
-instrumentos musicais;281;628
-eletroportateis;280;630
-portateis cozinha e preparadores de alimentos;264;14
-telefonia fixa;225;217
-construcao ferramentas seguranca;209;167
-relogios presentes;201;5624
+category,avg_ticket,total_orders
+pcs,1098,181
+portateis casa forno e cafe,624,75
+eletrodomesticos 2,476,234
+agro industria e comercio,342,182
+instrumentos musicais,281,628
+eletroportateis,280,630
+portateis cozinha e preparadores de alimentos,264,14
+telefonia fixa,225,217
+construcao ferramentas seguranca,209,167
+relogios presentes,201,5624

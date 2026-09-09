@@ -1,75 +1,75 @@
-category;revenue_2017;revenue_2018;growth
-beleza saude;479247;768795;289548
-relogios presentes;491940;707708;215768
-utilidades domesticas;229198;397872;168674
-automotivo;242389;346127;103738
-construcao ferramentas construcao;20248;123966;103718
-bebes;152567;255636;103069
-informatica acessorios;403168;502726;99558
-esporte lazer;449758;530196;80438
-eletrodomesticos 2;24016;89198;65182
-moveis decoracao;334556;384568;50012
-eletronicos;55451;101732;46281
-portateis casa forno e cafe;819;46611;45792
-pet shop;84584;127832;43248
-papelaria;94162;135641;41479
-cama mesa banho;494654;534209;39555
-telefonia;141148;178427;37279
-casa construcao;23880;58887;35007
-construcao ferramentas iluminacao;4051;36930;32879
-eletrodomesticos;23737;56110;32373
-instrumentos musicais;81722;109437;27715
-construcao ferramentas seguranca;8232;32221;23989
-industria comercio e negocios;8716;30545;21829
-audio;17474;32860;15386
-moveis escritorio;128276;142855;14579
-agro industria e comercio;29157;43313;14156
-sinalizacao e seguranca;4429;16992;12563
-bebidas;4963;17303;12340
-alimentos;8659;20311;11652
-moveis cozinha area de servico jantar e jardim;18524;27679;9155
-construcao ferramentas jardim;8852;16719;7867
-construcao ferramentas ferramentas;4071;11781;7710
-livros interesse geral;19501;26920;7419
-livros tecnicos;5753;12940;7187
-artes;9269;14790;5521
-cine foto;695;6195;5500
-portateis cozinha e preparadores de alimentos;0;3961;3961
-artigos de natal;2811;5888;3077
-musica;1552;4462;2910
-livros importados;1122;3491;2369
-moveis quarto;8827;11170;2343
-artes e artesanato;150;1649;1499
-fraldas higiene;76;1355;1279
-artigos de festas;1855;2605;750
-flores;264;824;560
-pc gamer;516;1025;509
-alimentos bebidas;7375;7659;284
-fashion roupa infanto juvenil;397;167;-230
-seguros e servicos;283;0;-283
-casa conforto 2;591;142;-449
-la cuisine;1273;781;-492
-cds dvds musicais;665;65;-600
-moveis colchao e estofado;2543;1817;-726
-fashion esporte;1728;365;-1363
-fashion roupa feminina;2111;601;-1510
-moveis sala;35057;33459;-1598
-telefonia fixa;30260;28460;-1800
-climatizacao;28182;24997;-3185
-dvds blu ray;4835;1113;-3722
-fashion underwear e moda praia;7024;2434;-4590
-tablets impressao imagem;6242;1257;-4985
-fashion roupa masculina;8388;2287;-6101
-fashion calcados;14875;8439;-6436
-fashion bolsas e acessorios;80893;70250;-10643
-malas acessorios;75634;63974;-11660
-market place;19375;7495;-11880
-eletroportateis;101217;89143;-12074
-casa conforto;37531;20784;-16747
-consoles games;87988;64956;-23032
-;105475;72945;-32530
-perfumaria;213659;177390;-36269
-ferramentas jardim;267456;213838;-53618
-pcs;159201;63716;-95485
-brinquedos;306031;170493;-135538
-cool stuff;391927;239679;-152248
+category,revenue_2017,revenue_2018,growth
+beleza saude,479247,768795,289548
+relogios presentes,491940,707708,215768
+utilidades domesticas,229198,397872,168674
+automotivo,242389,346127,103738
+construcao ferramentas construcao,20248,123966,103718
+bebes,152567,255636,103069
+informatica acessorios,403168,502726,99558
+esporte lazer,449758,530196,80438
+eletrodomesticos 2,24016,89198,65182
+moveis decoracao,334556,384568,50012
+eletronicos,55451,101732,46281
+portateis casa forno e cafe,819,46611,45792
+pet shop,84584,127832,43248
+papelaria,94162,135641,41479
+cama mesa banho,494654,534209,39555
+telefonia,141148,178427,37279
+casa construcao,23880,58887,35007
+construcao ferramentas iluminacao,4051,36930,32879
+eletrodomesticos,23737,56110,32373
+instrumentos musicais,81722,109437,27715
+construcao ferramentas seguranca,8232,32221,23989
+industria comercio e negocios,8716,30545,21829
+audio,17474,32860,15386
+moveis escritorio,128276,142855,14579
+agro industria e comercio,29157,43313,14156
+sinalizacao e seguranca,4429,16992,12563
+bebidas,4963,17303,12340
+alimentos,8659,20311,11652
+moveis cozinha area de servico jantar e jardim,18524,27679,9155
+construcao ferramentas jardim,8852,16719,7867
+construcao ferramentas ferramentas,4071,11781,7710
+livros interesse geral,19501,26920,7419
+livros tecnicos,5753,12940,7187
+artes,9269,14790,5521
+cine foto,695,6195,5500
+portateis cozinha e preparadores de alimentos,0,3961,3961
+artigos de natal,2811,5888,3077
+musica,1552,4462,2910
+livros importados,1122,3491,2369
+moveis quarto,8827,11170,2343
+artes e artesanato,150,1649,1499
+fraldas higiene,76,1355,1279
+artigos de festas,1855,2605,750
+flores,264,824,560
+pc gamer,516,1025,509
+alimentos bebidas,7375,7659,284
+fashion roupa infanto juvenil,397,167,-230
+seguros e servicos,283,0,-283
+casa conforto 2,591,142,-449
+la cuisine,1273,781,-492
+cds dvds musicais,665,65,-600
+moveis colchao e estofado,2543,1817,-726
+fashion esporte,1728,365,-1363
+fashion roupa feminina,2111,601,-1510
+moveis sala,35057,33459,-1598
+telefonia fixa,30260,28460,-1800
+climatizacao,28182,24997,-3185
+dvds blu ray,4835,1113,-3722
+fashion underwear e moda praia,7024,2434,-4590
+tablets impressao imagem,6242,1257,-4985
+fashion roupa masculina,8388,2287,-6101
+fashion calcados,14875,8439,-6436
+fashion bolsas e acessorios,80893,70250,-10643
+malas acessorios,75634,63974,-11660
+market place,19375,7495,-11880
+eletroportateis,101217,89143,-12074
+casa conforto,37531,20784,-16747
+consoles games,87988,64956,-23032
+,105475,72945,-32530
+perfumaria,213659,177390,-36269
+ferramentas jardim,267456,213838,-53618
+pcs,159201,63716,-95485
+brinquedos,306031,170493,-135538
+cool stuff,391927,239679,-152248
