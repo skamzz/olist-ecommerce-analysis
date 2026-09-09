@@ -37,9 +37,9 @@ Sales data analysis of Brazilian e-commerce using the public Olist dataset (2017
 
 ## Key Findings
 
-* **Top category by revenue:** Relogios Presentes — approximately R$ 10.1M in total revenue
-* **Highest average ticket:** Relogios Presentes — approximately R$ 338 per order
-* **Revenue trend:** Revenue increased throughout most of 2017, with a strong peak in November 2017, followed by a decline toward the end of the dataset period
+* **Top category by revenue:** Beleza Saude — approximately R$ 1.25M in total revenue
+* **Highest average ticket:** PCs — approximately R$ 1,098 per item
+* **Revenue trend:** Revenue increased throughout most of 2017, reaching a strong peak in November 2017, followed by continued high revenue levels in early 2018 and a decline toward the end of the dataset period
 * **Anomaly detection:** Identified orders with unusually high values as potential anomalies requiring further investigation
 
 ## Dashboard
