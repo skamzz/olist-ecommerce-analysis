@@ -10,7 +10,7 @@
 
 SELECT category,
        CAST(ROUND(SUM(price), 0) AS INTEGER) AS total_revenue,
-       COUNT(order_id) AS total_orders
+       COUNT(DISTINCT order_id) AS total_orders
 FROM orders
 GROUP BY category
 ORDER BY total_revenue DESC
@@ -22,8 +22,8 @@ LIMIT 10;
 -- ============================================================
 
 SELECT category,
-       CAST(ROUND(AVG(price), 0) AS INTEGER) AS avg_ticket,
-       COUNT(order_id) AS total_orders
+        CAST(ROUND(AVG(price), 0) AS INTEGER) AS avg_ticket,
+       COUNT(DISTINCT order_id) AS total_orders
 FROM orders
 GROUP BY category
 ORDER BY avg_ticket DESC
@@ -34,12 +34,11 @@ LIMIT 10;
 -- Query 3 — Monthly revenue trend
 -- ============================================================
 
-SELECT strftime('%Y-%m',
-                substr(purchase_date, 7, 4) || '-' ||
-                substr(purchase_date, 4, 2) || '-' ||
-                substr(purchase_date, 1, 2)) AS year_month,
+SELECT strftime('%Y-%m', substr(purchase_date, 7, 4) || '-' ||
+                           substr(purchase_date, 4, 2) || '-' ||
+                           substr(purchase_date, 1, 2)) AS year_month,
        CAST(ROUND(SUM(price), 0) AS INTEGER) AS monthly_revenue,
-       COUNT(order_id) AS monthly_orders
+       COUNT(DISTINCT order_id) AS monthly_orders
 FROM orders
 GROUP BY year_month
 ORDER BY year_month;
@@ -50,12 +49,12 @@ ORDER BY year_month;
 -- ============================================================
 
 SELECT category,
-       CAST(ROUND(SUM(CASE
-           WHEN year = '2017' THEN price ELSE 0
+       CAST(ROUND(SUM(CASE 
+           WHEN year = '2017' THEN price ELSE 0 
        END), 0) AS INTEGER) AS revenue_2017,
 
-       CAST(ROUND(SUM(CASE
-           WHEN year = '2018' THEN price ELSE 0
+       CAST(ROUND(SUM(CASE 
+           WHEN year = '2018' THEN price ELSE 0 
        END), 0) AS INTEGER) AS revenue_2018,
 
        CAST(ROUND(
@@ -86,14 +85,8 @@ ORDER BY growth DESC;
 SELECT order_id,
        category,
        price,
-       CAST(ROUND(
-           AVG(price) OVER (PARTITION BY category), 0
-       ) AS INTEGER) AS avg_category_price,
-
-       CAST(ROUND(
-           price - AVG(price) OVER (PARTITION BY category), 0
-       ) AS INTEGER) AS deviation
-
+       CAST(ROUND(AVG(price) OVER (PARTITION BY category), 0) AS INTEGER) AS avg_category_price,
+       CAST(ROUND(price - AVG(price) OVER (PARTITION BY category), 0) AS INTEGER) AS deviation
 FROM orders
 WHERE price > (SELECT AVG(price) * 3 FROM orders)
 ORDER BY deviation DESC
