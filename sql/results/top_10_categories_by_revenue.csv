@@ -1,11 +1,11 @@
-category;total_revenue;total_orders
-beleza saude;1252690;8836
-relogios presentes;1203007;5624
-cama mesa banho;1029335;9417
-esporte lazer;983274;7720
-informatica acessorios;907286;6689
-moveis decoracao;724953;6449
-cool stuff;632713;3632
-utilidades domesticas;628346;5884
-automotivo;590342;3897
-ferramentas jardim;482651;3518
+category,total_revenue,total_orders
+beleza saude,1252690,8836
+relogios presentes,1203007,5624
+cama mesa banho,1029335,9417
+esporte lazer,983274,7720
+informatica acessorios,907286,6689
+moveis decoracao,724953,6449
+cool stuff,632713,3632
+utilidades domesticas,628346,5884
+automotivo,590342,3897
+ferramentas jardim,482651,3518
