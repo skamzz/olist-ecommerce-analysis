@@ -5,14 +5,14 @@ Sales data analysis of Brazilian e-commerce using the public Olist dataset (2017
 ## Dataset
 
 * Source: [Olist Dataset — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-* 112,650 orders across 74 product categories
+* 98,7 orders across 74 product categories
 * Period: January 2017 to September 2018
 
 ## Tools
 
 * Excel (Power Query, Pivot Tables, Dashboard)
 * SQL (SQLite via DB Browser for SQLite)
-* Power BI *(in progress)*
+* Power BI 
 
 ## Business Questions
 
@@ -62,14 +62,13 @@ The Excel dashboard includes:
 
 The complete Excel workbook can be downloaded from the https://github.com/skamzz/olist-ecommerce-analysis/releases/tag/v1.0.
 
-### Power BI Dashboard *(in progress)*
+### Power BI Dashboard
 
 The Power BI dashboard includes four main visuals:
 
 * **Sales volume by state:** Brazil map showing the distribution of sales across Brazilian states
 * **Top 10 categories:** Bar chart ranking the highest-revenue product categories
-* **Average ticket:** KPI card showing the overall average ticket
-* **Delivery delay vs. review score:** Scatter plot analyzing the relationship between delivery delays and customer reviews
+* **Average ticket:** KPI card showing the overall average tickets
 
 ## SQL Analysis
 
