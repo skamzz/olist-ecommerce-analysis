@@ -5,14 +5,13 @@ Sales data analysis of Brazilian e-commerce using the public Olist dataset (2017
 ## Dataset
 
 * Source: [Olist Dataset — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-* 98,7 orders across 74 product categories
+* 98.666 orders across 74 product categories
 * Period: January 2017 to September 2018
-
+  
 ## Tools
-
-* Excel (Power Query, Pivot Tables, Dashboard)
-* SQL (SQLite via DB Browser for SQLite)
-* Power BI 
+- **SQL** — SQLite via DB Browser for SQLite
+- **Excel** — Power Query, Pivot Tables, Dashboard
+- **Power BI** — Interactive dashboard with map, trend and ranking visuals
 
 ## Business Questions
 
@@ -64,11 +63,18 @@ The complete Excel workbook can be downloaded from the https://github.com/skamzz
 
 ### Power BI Dashboard
 
-The Power BI dashboard includes four main visuals:
+The Power BI dashboard includes:
+- **KPI cards:** Total Orders, Average Ticket, 
+  Total Revenue, Total Customers
+- **Orders by State:** Brazil map showing geographic 
+  distribution of sales volume
+- **Monthly Revenue Trend — 2017 vs 2018:** Line chart 
+  comparing revenue evolution across both years
+- **Top 10 Categories by Total Revenue:** Horizontal 
+  bar chart ranking highest-revenue categories
 
-* **Sales volume by state:** Brazil map showing the distribution of sales across Brazilian states
-* **Top 10 categories:** Bar chart ranking the highest-revenue product categories
-* **Average ticket:** KPI card showing the overall average tickets
+The dashboard preview is available in PDF format 
+in the `powerbi/` folder.
 
 ## SQL Analysis
 
@@ -83,8 +89,6 @@ The project includes five analytical SQL queries:
 The query results are exported as CSV files and available in `sql/results/`.
 
 ## Project Structure
-
-```text
 olist-ecommerce-analysis/
 ├── README.md
 ├── excel/
@@ -98,9 +102,13 @@ olist-ecommerce-analysis/
 │       ├── revenue_growth_2017_vs_2018.csv
 │       └── anomaly_detection.csv
 └── powerbi/
-    └── olist_ecommerce_dashboard.pbix
-```
+    └── olist_ecommerce_dashboard.pdf
+
+> The complete Excel workbook (.xlsx) is available 
+> in the [Releases](https://github.com/skamzz/olist-ecommerce-analysis/releases/tag/v1.0) section due 
+> to file size constraints.
 
 ## Skills Demonstrated
-
-SQL · Excel · Power Query · Pivot Tables · Data Analysis · Data Visualization · Anomaly Detection · Business Intelligence
+SQL · Excel Advanced · Power Query · Pivot Tables · 
+Power BI · Data Visualization · Anomaly Detection · 
+Business Intelligence · Data Cleaning · ETL
