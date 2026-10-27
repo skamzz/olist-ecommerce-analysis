@@ -59,7 +59,7 @@ The Excel dashboard includes:
 
 * The dashboard preview is available in PDF format in the `excel/` folder.
 
-The complete Excel workbook can be downloaded from the https://github.com/skamzz/olist-ecommerce-analysis/releases/tag/v1.0.
+The complete Excel workbook (`.xlsx`) is available in the [Excel Dashboard Release](https://github.com/skamzz/olist-ecommerce-analysis/releases/tag/v1.0).
 
 ### Power BI Dashboard
 
@@ -73,8 +73,9 @@ The Power BI dashboard includes:
 - **Top 10 Categories by Total Revenue:** Horizontal 
   bar chart ranking highest-revenue categories
 
-The dashboard preview is available in PDF format 
-in the `powerbi/` folder.
+The dashboard preview is available in PDF format in the `powerbi/` folder.
+
+The complete Power BI report (`.pbix`) is available in the [Power BI Dashboard Release](https://github.com/skamzz/olist-ecommerce-analysis/releases/tag/v1.1).
 
 ## SQL Analysis
 
@@ -104,9 +105,7 @@ olist-ecommerce-analysis/
 └── powerbi/
     └── olist_ecommerce_dashboard.pdf
 
-> The complete Excel workbook (.xlsx) is available 
-> in the [Releases](https://github.com/skamzz/olist-ecommerce-analysis/releases/tag/v1.0) section due 
-> to file size constraints.
+> The complete Excel workbook (.xlsx) and Power BI report (.pbix) are available in the [GitHub Releases](https://github.com/skamzz/olist-ecommerce-analysis/releases) section due to file size constraints.
 
 ## Skills Demonstrated
 SQL · Excel Advanced · Power Query · Pivot Tables · 
