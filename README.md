@@ -90,6 +90,7 @@ The project includes five analytical SQL queries:
 The query results are exported as CSV files and available in `sql/results/`.
 
 ## Project Structure
+```text
 olist-ecommerce-analysis/
 ├── README.md
 ├── excel/
@@ -104,6 +105,7 @@ olist-ecommerce-analysis/
 │       └── anomaly_detection.csv
 └── powerbi/
     └── olist_ecommerce_dashboard.pdf
+```
 
 > The complete Excel workbook (.xlsx) and Power BI report (.pbix) are available in the [GitHub Releases](https://github.com/skamzz/olist-ecommerce-analysis/releases) section due to file size constraints.
 
